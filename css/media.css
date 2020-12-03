@@ -1,0 +1,8 @@
+@media(max-width:768px) {
+    .carousel {
+        display: none;
+    }
+    .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover {
+        background: red;
+    }
+}

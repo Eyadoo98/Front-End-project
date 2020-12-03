@@ -1,0 +1,887 @@
+body {
+    transform: perspective(150px);
+ 
+}
+
+.navbar-brand, .oo {
+    color: red;
+    font-size: 30px;
+    font-family: comic sans ms;
+}
+
+/* Start background-color for Active Link*/
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus {
+    background-color: red;
+}
+
+/*End background-color for Active Link*/
+
+/*Color of link*/
+
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+}
+
+/*color of link*/
+
+/*Background-color for dropdown menu*/
+
+.dropdown-menu>li>a {
+    background-color: black;
+    color: white;
+    padding: 6px 11px;
+    transition: 1s all ease;
+}
+
+/*Background-color for dropdown menu*/
+
+/*Background-color for divider*/
+
+.dropdown-menu {
+    background-color: black;
+    border-top: 1px solid red;
+}
+
+/*Background-color for divider*/
+
+/*Background-color when focus on link*/
+
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus {
+    background-color: red;
+    color: white;
+    padding-left: 30px;
+}
+
+/*Background-color when focus on link*/
+
+/*Background-color for divider*/
+
+.dropdown-menu .divider {
+    background-color: red;
+}
+
+/*Background-color for divider*/
+
+/* change direction of dropdown menu*/
+
+.navbar-right .dropdown-menu {
+    right: auto;
+    left: 0px;
+}
+
+/*change direction of dropdown menu*/
+
+/*End of Navbar---------------------------------------------------------------------------*/
+
+/*Start Carousel*/
+
+/* for caption of carousel*/
+
+.carousel-caption {
+    bottom: 50px;
+    background: rgba(3, 3, 3, 0.4);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* for caption of carousel*/
+
+/*Start for the circle in carousel*/
+
+.carousel-indicators {
+    bottom: -5px;
+    border-radius: 44px;
+}
+
+.carousel-indicators li {
+    width: 17px;
+    height: 17px;
+    border-radius: 50px;
+    border: 1px solid #EEE;
+}
+
+.carousel-indicators .active {
+    width: 19px;
+    height: 19px;
+    border-radius: 50px;
+    background-color: #E41B17;
+}
+
+.carousel-inner>.item>img {
+    height: 480px;
+    width: 1400px;
+}
+
+/*End for the circle in carousel*/
+
+/*End Carousel--------------------------------------------------------------------------------*/
+
+/*Start Section About*/
+
+.about {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+.about .lead {
+    color: #888;
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+.about h1 {
+    font-weight: bold;
+}
+
+.about h1 span {
+    color: #E41B17;
+}
+
+/*End Section About*/
+
+/* Start Section Features */
+
+.feature {
+    background-color: #EEE;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.feature .feat p {
+    line-height: 2.2;
+}
+
+.feature h1 {
+    margin-bottom: 50px;
+}
+
+.feature .feat {
+    margin-bottom: 40px
+}
+
+/* End Section Features */
+
+/*Startg Testimonials section*/
+
+.testimonials {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.testimonials h1 {
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.testimonials .lead {
+    line-height: 1.9;
+    margin-bottom: 10px;
+}
+
+.testimonials span {
+    color: #E41B17;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 250px;
+}
+
+.testimonials .carousel-inner {
+    min-height: 160px;
+}
+
+.testimonials .carousel-indicators {
+    position: static;
+    width: 100%;
+    margin-left: auto;
+    padding-top: 20px;
+}
+
+.testimonials .carousel-indicators li {
+    width: 90px;
+    height: 90px;
+    text-indent: 0;
+    opacity: .4;
+    border: 2px solid #FFF;
+    margin: 5px;
+    transition: 1s all ease;
+    transform: rotate(50deg)
+}
+
+.testimonials .carousel-indicators li.active {
+    width: 90px;
+    height: 90px;
+    opacity: 10;
+    border: 2px solid #E41B17;
+    transform: rotate(0deg)
+}
+
+.testimonials .carousel-indicators li img {
+    max-width: 100%;
+    border-radius: 50%;
+    background-color: none;
+}
+
+/*End Testimonials section*/
+
+/*Start Section Price*/
+
+.section-price {
+    background-color: #EEE;
+    padding: 20px;
+}
+
+.section-price .first:hover p {
+    transform: scale(1.1) rotate(360deg);
+    border: 2px solid #E41B17;
+}
+
+.section-price h1 {
+    margin-bottom: 60px;
+}
+
+.section-price .first {
+    background-color: #FFF;
+    padding: 10px;
+    border: 1px solid #DDD;
+    margin-bottom: 15px;
+}
+
+.section-price .first h3 {
+    margin-top: 3px;
+}
+
+.section-price .first p {
+    font-weight: bolder;
+    font-size: 35px;
+    color: #666;
+    width: 100px;
+    height: 100px;
+    background-color: #F3F3F3;
+    border-radius: 50%;
+    line-height: 2.7;
+    transition: 1s all ease;
+    border: 1px solid white;
+}
+
+.section-price ul {
+    line-height: 1.8;
+    font-size: 18px;
+}
+
+.section-price a {
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+/*End Section Price*/
+
+/*Statr Section Our Team*/
+
+.section_team {
+    background: url('../pic/p28.jpeg') no-repeat fixed center center;
+    background-size: cover;
+    height: 800px;
+}
+
+.section_team .team {
+    background-color: rgba(3, 3, 3, 0.8);
+    color: white;
+    min-height: 800px;
+    padding-top: 15px;
+    padding-bottom: 40px;
+}
+
+.section_team h1 {
+    padding-bottom: 50px;
+}
+
+.section_team .team img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    transition: 1s all ease;
+    animation-name: eyad;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes eyad {
+    0% {
+        transform: rotate(50deg);
+        transform: translateZ(20px)
+    }
+    10% {
+        transform: rotate(70deg);
+        transform: translateZ(40px)
+    }
+    50% {
+        transform: rotate(350deg);
+        transform: translateZ(60px)
+    }
+    70% {
+        transform: rotate(190deg);
+    }
+    80% {
+        transform: rotate(270deg);
+    }
+    90% {
+        transform: rotate(310deg);
+    }
+}
+
+.section_team .team p {
+    margin-bottom: 40px;
+}
+
+/*End Section Our Team*/
+
+/*Start Section Subscribe*/
+
+.subscribe {
+    background-color: #EEE;
+    padding-bottom: 60px;
+    padding-top: 40px;
+    margin-top: -20px;
+}
+
+.subscribe h1 {
+    color: #888;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+.subscribe p {
+    margin-bottom: 20px;
+}
+
+.subscribe .form-control {
+    border-radius: 0px;
+    margin-right: -5px;
+    width: 300px;
+}
+
+.subscribe .btn {
+    border-radius: 0px;
+}
+
+/*End Section Subscribe*/
+
+/*Start Section Statistic*/
+
+.Statistic {
+    background-image: url("../pic/p20.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    min-height: 400px;
+    max-width: 5507px;
+}
+
+.Statistic .stac {
+    background-attachment: fixed;
+    background: rgba(3, 3, 3, 0.5);
+    height: 850px;
+    width: 100%;
+    color: #DDD;
+    padding-top: 35px;
+    margin-bottom: 50px;
+}
+
+.Statistic h1 {
+    margin-bottom: 50px;
+}
+
+.Statistic p {
+    font-size: 30px;
+    font-weight: bolder;
+    margin-bottom: 0px;
+}
+
+.Statistic span {
+    font-size: 20px;
+}
+
+.Statistic .test {
+    margin-bottom: 40px;
+    transition: 2s all ease;
+    animation-name: eyad12;
+    animation-iteration-count: infinite;
+    animation-duration: 1.5s;
+}
+
+.Statistic .test:hover {
+    color: white;
+    transform: rotate(50deg);
+}
+
+.Statistic img {
+    width: 100px;
+}
+
+@keyframes eyad12 {
+    0%, 100% {
+        transform: translatey(20px);
+        transform: rotate(20deg)
+    }
+    20% {
+        transform: translatey(50px);
+        transform: rotate(40deg)
+    }
+    40% {
+        transform: translatey(70px);
+        transform: rotate(60deg)
+    }
+    60% {
+        transform: translatey(90px)
+    }
+    80% {
+        transform: translatex(150px)
+    }
+    90% {
+        transform: rotate(50deg)
+    }
+}
+
+/*End Section Statistic*/
+
+/*Start Team Info*/
+
+.our_skills {
+    padding-top: 40px;
+    padding-bottom: 70px;
+}
+
+.our_skills h1 {
+    margin-bottom: 50px;
+}
+
+.our_skills h2 {
+    font-weight: bolder;
+    margin-top: 0px;
+}
+
+.our_skills .progress {
+    height: 34px;
+    margin-bottom: 26px;
+    background-color: whitesmoke;
+    box-shadow: inset 6px 8px 8px rgba(3, 3, 3, 0);
+    border-radius: 115px;
+}
+
+.our_skills .progress-bar {
+    line-height: 33px;
+    font-size: 16px;
+    font-weight: bolder;
+    box-shadow: inset 0 38px 0 rgba(0, 0, 0, .15);
+}
+
+/*End Team Info*/
+
+/*Start Section Contact Us*/
+
+.contacr-us {
+    background: url("../pic/p49.jpeg") no-repeat center center fixed;
+    min-height: 350px;
+    margin-bottom: 0px;
+    background-size: cover;
+}
+
+.contacr-us .background {
+    background: rgba(0, 0, 0, 0.7);
+    min-height: 350px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    color: white;
+}
+
+.contacr-us p {
+    margin-bottom: 40px;
+}
+
+textarea.input-lg {
+    height: 111px;
+}
+
+/*End Section Contact Us*/
+
+/*Start Section Our Client*/
+
+.our-clients {
+    background: #EEE;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.our-clients ul img {
+    opacity: 0.6;
+    width: 130px;
+    height: 165px;
+    padding-bottom: 15px;
+    transition: 0.5s all ease;
+}
+
+.our-clients ul img:hover {
+    opacity: 1;
+}
+
+/*End SEction Our Clients*/
+
+/*Start Section Footer*/
+
+.footer {
+    background: #111;
+    color: #AAA;
+    padding-top: 20px;
+}
+
+.footer li {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.footer h3 {
+    color: #0895d1;
+    letter-spacing: 1px;
+    margin: 20px 0 20px;
+    margin-left: 12px;
+}
+
+.footer img {
+    width: 60px;
+}
+
+.footer .img1 {
+    width: 70px
+}
+
+.footer .social li {
+    display: inline;
+    margin-right: 7px;
+    opacity: 0.5;
+    transition: 0.4s all ease;
+}
+
+.footer .social li:hover {
+    opacity: 1;
+}
+
+.footer .img-thumbnail {
+    background: rgba(0, 0, 0, 0.2);
+    border: 1px solid #444;
+    margin-bottom: 5px;
+}
+
+.footer .copy-right {
+    color: #AAA;
+    margin-top: 14px;
+    padding: 15px 0px;
+    background: #333;
+    height: 45px;
+    line-height: 0.5;
+    font-size: 20px;
+}
+
+.footer .copy-right span {
+    color: #0895d1;
+}
+
+/*End Section Footer*/
+
+.loading-overlay {
+    background: #222;
+    color: #FFF;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+}
+
+/*Start Section Loading*/
+
+.loading {
+    background: #222;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 99999;
+}
+
+.sk-folding-cube {
+    margin: 20px auto;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 270px;
+    -webkit-transform: rotateZ(45deg);
+    transform: rotateZ(45deg);
+}
+
+.sk-folding-cube .sk-cube {
+    float: left;
+    width: 50%;
+    height: 50%;
+    position: relative;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.sk-folding-cube .sk-cube:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #E41B17;
+    -webkit-animation: sk-foldCubeAngle 2.4s infinite linear both;
+    animation: sk-foldCubeAngle 2.4s infinite linear both;
+    -webkit-transform-origin: 100% 100%;
+    -ms-transform-origin: 100% 100%;
+    transform-origin: 100% 100%;
+}
+
+.sk-folding-cube .sk-cube2 {
+    -webkit-transform: scale(1.1) rotateZ(90deg);
+    transform: scale(1.1) rotateZ(90deg);
+}
+
+.sk-folding-cube .sk-cube3 {
+    -webkit-transform: scale(1.1) rotateZ(180deg);
+    transform: scale(1.1) rotateZ(180deg);
+}
+
+.sk-folding-cube .sk-cube4 {
+    -webkit-transform: scale(1.1) rotateZ(270deg);
+    transform: scale(1.1) rotateZ(270deg);
+}
+
+.sk-folding-cube .sk-cube2:before {
+    -webkit-animation-delay: 0.3s;
+    animation-delay: 0.3s;
+}
+
+.sk-folding-cube .sk-cube3:before {
+    -webkit-animation-delay: 0.6s;
+    animation-delay: 0.6s;
+}
+
+.sk-folding-cube .sk-cube4:before {
+    -webkit-animation-delay: 0.9s;
+    animation-delay: 0.9s;
+}
+
+@-webkit-keyframes sk-foldCubeAngle {
+    0%, 10% {
+        -webkit-transform: perspective(140px) rotateX(-180deg);
+        transform: perspective(140px) rotateX(-180deg);
+        opacity: 0;
+    }
+    25%, 75% {
+        -webkit-transform: perspective(140px) rotateX(0deg);
+        transform: perspective(140px) rotateX(0deg);
+        opacity: 1;
+    }
+    90%, 100% {
+        -webkit-transform: perspective(140px) rotateY(180deg);
+        transform: perspective(140px) rotateY(180deg);
+        opacity: 0;
+    }
+}
+
+@keyframes sk-foldCubeAngle {
+    0%, 10% {
+        -webkit-transform: perspective(140px) rotateX(-180deg);
+        transform: perspective(140px) rotateX(-180deg);
+        opacity: 0;
+    }
+    25%, 75% {
+        -webkit-transform: perspective(140px) rotateX(0deg);
+        transform: perspective(140px) rotateX(0deg);
+        opacity: 1;
+    }
+    90%, 100% {
+        -webkit-transform: perspective(140px) rotateY(180deg);
+        transform: perspective(140px) rotateY(180deg);
+        opacity: 0;
+    }
+}
+
+/*End Section Loading*/
+
+/*Start Scroll To Top*/
+
+#Scroll_top img {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    left: 1180px;
+    top: 5600px;
+    z-index: 999;
+    display: none;
+}
+
+/*End Scoll To Top*/
+
+/*Start Final Loading */
+
+/*.ttt {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: #111;
+    z-index: 9999999999999;
+}*/
+
+.qqq {
+    border-radius: 20px;
+    font-size: 22px;
+    position: absolute;
+    left: 640px;
+    top: 300px;
+    text-align: center;
+    width: 90px;
+    height: 40px;
+    background-color: yellow;
+    animation-name: ssss;
+    transition: 1s all ease;
+    animation-duration: 18s;
+    animation-iteration-count: 1;
+    overflow: hidden;
+    z-index: 9999999;
+    opacity: 0.9;
+}
+
+.qqq p {
+    left: 7px;
+    text-transform: uppercase;
+    top: 1px;
+    position: absolute;
+    animation-name: sss;
+    transition: 1s all ease;
+    animation-duration: 18s;
+    animation-iteration-count: 1;
+    animation-delay: 2s;
+    overflow: hidden;
+    text-align: center;
+}
+
+@keyframes sss {
+    0% {
+        top: 1px;
+    }
+    15% {
+        top: -27px;
+        animation-delay: 4s;
+    }
+    25% {
+        top: -59px;
+    }
+    35% {
+        top: -90px;
+    }
+    45% {
+        top: -125px;
+    }
+    55% {
+        top: -155px;
+    }
+    66% {
+        top: -188px;
+    }
+    76% {
+        top: -220px;
+    }
+    86% {
+        top: -250px;
+    }
+}
+.sec{
+    background-color:#E41B17;
+    width: 490px;
+    height: 270px;
+    left: 550px;
+    top:120px;
+    position:absolute;
+}
+.l1 {
+    color:#444;
+    text-decoration: line-through;
+    top:20px;
+    position:absolute;
+    font-size: 20px;
+    left:20px;
+}
+.l2 {
+    color:black;
+    position:absolute;
+    top:50px;
+    left:20px;
+    font-size: 30px;
+}
+.l3 {
+    font-size:20px;
+    position:absolute;
+    top:90px;
+    color:black;
+    left:20px;
+    font-style:bold;
+}
+.l4 {
+    
+    font-size:16px;
+    position:absolute;
+    top:95px;
+    color:black;
+    left:140px;
+}
+.l5 {
+    
+    font-size:20px;
+    position:absolute;
+    top:120px;
+    color:black;
+    left:20px;
+    font-style:bold;
+}
+.l6 {
+    
+    font-size:16px;
+    position:absolute;
+    top:123px;
+    color:black;
+    left:98px;
+}
+.l7 {
+    background-color:cadetblue;
+    font-size:20px;
+    position:absolute;
+    top:180px;
+    color:black;
+    left:60px;
+    border-radius:5px;
+    font-style:bold;
+}
+.l8 {
+    
+    background-color:cadetblue;
+    font-size:20px;
+    position:absolute;
+    top:220px;
+    color:black;
+    left:60px;
+    border-radius:5px;
+    font-style:bold;
+    width:125px;
+}
+/*End Final Loading */
